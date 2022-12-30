@@ -1,0 +1,23 @@
+{
+    "name": "root23/rframework",
+    "description": "Simple php framework. It's just a pet.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rframework\\Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "root23"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.4"
+    }
+}
